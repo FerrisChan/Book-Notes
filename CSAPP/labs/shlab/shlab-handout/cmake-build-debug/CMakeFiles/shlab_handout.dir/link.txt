@@ -1,0 +1,1 @@
+/usr/bin/cc  -g   CMakeFiles/shlab_handout.dir/myint.c.o CMakeFiles/shlab_handout.dir/myspin.c.o CMakeFiles/shlab_handout.dir/mysplit.c.o CMakeFiles/shlab_handout.dir/mystop.c.o CMakeFiles/shlab_handout.dir/tsh.c.o  -o shlab_handout 
