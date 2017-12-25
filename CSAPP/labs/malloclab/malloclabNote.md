@@ -107,4 +107,19 @@ static void place(void *bp, size_t asize);
 - TA的指导网页:http://wdxtub.com/2016/04/16/thick-csapp-lab-6/
 - 别人使用二叉树完成的代码:http://blog.csdn.net/u010560443/article/details/50611251
 - hash实现的代码:http://blog.csdn.net/a2888409/article/details/47155501
-- Github代码:
+- 实验所有的Github代码
+https://github.com/FerrisChan/tools-learning/tree/master/CSAPP/labs/malloclab
+ - mm-textbook.c 为课本的单链表实现
+ - mm.c为segment fault的代码:(
+ - 可以把这两文件名字互换,再运行   
+
+ ```
+
+
+### 实验步骤
+
+- 只需要完成mm.c中的代码
+- make
+- 运行评分driver,并导入测试文件
+ - ./mdriver -f short1-bal.rep
+![result.png](http://img.blog.csdn.net/20171225174505658?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvZmVycmlzX2NoYW4=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
